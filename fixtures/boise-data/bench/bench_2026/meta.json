@@ -1,0 +1,30 @@
+{
+  "schema": "reptile.boise.sample-meta.v1",
+  "metaId": "meta_bench_2026",
+  "imuSessionFile": "sample.json",
+  "collector": {
+    "id": "wb-test",
+    "displayName": "Workbench Test"
+  },
+  "exercise": {
+    "id": "bench",
+    "displayName": "Bench"
+  },
+  "capturedAtIso": "2026-07-10T12:00:00.000Z",
+  "appVersion": "boise-workbench-fixture",
+  "deviceInfo": {
+    "platform": "fixture"
+  },
+  "captureTrigger": {
+    "triggerId": "manual",
+    "version": 1,
+    "config": {}
+  },
+  "status": "kept",
+  "label": {
+    "exerciseId": "bench",
+    "source": "collector"
+  },
+  "review": {},
+  "history": []
+}

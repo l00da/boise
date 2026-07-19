@@ -1,0 +1,59 @@
+{
+  "schema": "reptile.boise.sample-meta.v1",
+  "metaId": "meta_squat_2026-07-11T01-07-46-227Z",
+  "imuSessionFile": "sample.json",
+  "collector": {
+    "id": "collector_vincent_9acb12",
+    "displayName": "Vincent"
+  },
+  "exercise": {
+    "id": "squat",
+    "displayName": "Squat"
+  },
+  "capturedAtIso": "2026-07-11T01:07:46.227Z",
+  "appVersion": "dev",
+  "deviceInfo": {
+    "bleDeviceId": "hSFQUgUT71TD/yJS7OvNVw==",
+    "bleDeviceName": "ESP32-IMU",
+    "platform": "web"
+  },
+  "captureTrigger": {
+    "triggerId": "rest_after_motion",
+    "version": 1,
+    "config": {
+      "graceCancelSec": 3,
+      "motionGyroMinDps": 8,
+      "motionLinearAccMinMps2": 0.35,
+      "motionSustainMs": 300,
+      "restContinuousSec": 4
+    }
+  },
+  "status": "kept",
+  "label": {
+    "exerciseId": "squat",
+    "source": "collector",
+    "relabeledFrom": "bench"
+  },
+  "review": {},
+  "history": [
+    {
+      "atIso": "2026-07-11T01:07:59.206Z",
+      "by": "collector_vincent_9acb12",
+      "from": "unreviewed@squat",
+      "to": "relabel@bench"
+    },
+    {
+      "atIso": "2026-07-11T01:07:59.858Z",
+      "by": "collector_vincent_9acb12",
+      "from": "unreviewed@bench",
+      "to": "relabel@squat"
+    },
+    {
+      "atIso": "2026-07-11T01:08:01.241Z",
+      "by": "collector_vincent_9acb12",
+      "from": "unreviewed@squat",
+      "to": "kept@squat"
+    }
+  ],
+  "exportedAtIso": "2026-07-12T05:19:19.857Z"
+}

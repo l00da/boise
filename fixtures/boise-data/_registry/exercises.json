@@ -1,0 +1,12 @@
+{
+  "schema": "reptile.boise.exercise-registry.v1",
+  "exercises": [
+    {
+      "id": "squat",
+      "displayName": "Squat",
+      "createdBy": "wb-test",
+      "createdAtIso": "2026-07-10T12:00:00.000Z",
+      "readiness": "data_collection"
+    }
+  ]
+}

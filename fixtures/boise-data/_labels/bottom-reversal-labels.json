@@ -1,0 +1,35 @@
+{
+  "schema": "reptile.boise.bottom-reversal-labels.v1",
+  "captures": [
+    {
+      "exerciseId": "squat",
+      "baseName": "squat_2026-07-12T06-14-16-507Z",
+      "note": "5 up-down reversals (up-down capture)",
+      "expectedReversals": [
+        { "epochMs": 54368, "label": "rep 1" },
+        { "epochMs": 59022, "label": "rep 2" },
+        { "epochMs": 63742, "label": "rep 3" },
+        { "epochMs": 65112, "label": "rep 4" },
+        { "epochMs": 65277, "label": "rep 5" }
+      ]
+    },
+    {
+      "exerciseId": "squat",
+      "baseName": "squat_2026-07-10T15-45-15-212Z",
+      "note": "single clean reversal",
+      "expectedReversals": [{ "epochMs": 655730, "label": "rep 1" }]
+    },
+    {
+      "exerciseId": "squat",
+      "baseName": "squat_2026",
+      "note": "stationary synthetic — expect zero reversals",
+      "expectedReversals": []
+    },
+    {
+      "exerciseId": "squat",
+      "baseName": "squat_2026-07-12T05-18-38-711Z",
+      "note": "no clear reversal crossings",
+      "expectedReversals": []
+    }
+  ]
+}

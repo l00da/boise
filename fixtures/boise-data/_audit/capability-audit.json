@@ -1,0 +1,64 @@
+{
+  "schema": "reptile.boise.capability-audit.v1",
+  "checkedAt": "2026-07-16T19:39:54.080Z",
+  "entries": [
+    {
+      "capability": "estimator_replay",
+      "state": "FUNCTIONAL",
+      "evidencePaths": [
+        "gold-grey/src/lib/imu/replay/replayRunner.ts"
+      ],
+      "reason": "runEstimatorReplay importable",
+      "checkedAt": "2026-07-16T19:39:54.080Z"
+    },
+    {
+      "capability": "flex_scoring",
+      "state": "CONDITIONAL",
+      "evidencePaths": [
+        "gold-grey/src/lib/imu/replay/flexCompare.ts",
+        "gold-grey/src/lib/imu/replay/compareFlexCli.ts"
+      ],
+      "reason": "compare:flex CLI present; requires flex reference sidecar per sample",
+      "checkedAt": "2026-07-16T19:39:54.080Z"
+    },
+    {
+      "capability": "classifier_desktop",
+      "state": "UNAVAILABLE",
+      "evidencePaths": [
+        "gold-grey/docs/boise/PASS0-EVIDENCE.md",
+        "e2e/san francisco/src/online/predict_csv.py"
+      ],
+      "reason": "Pass 0 DESKTOP VERDICT: NOT EXECUTABLE (numpy/sklearn pickle mismatch)",
+      "checkedAt": "2026-07-16T19:39:54.080Z"
+    },
+    {
+      "capability": "projection_scatter",
+      "state": "UNAVAILABLE",
+      "evidencePaths": [
+        "gold-grey/docs/boise/PASS0-EVIDENCE.md"
+      ],
+      "reason": "Pass 1 FEATURE-TRANSFORM VERDICT: NOT AVAILABLE (no saved pipeline artifact)",
+      "checkedAt": "2026-07-16T19:39:54.080Z"
+    },
+    {
+      "capability": "abc_replay",
+      "state": "CONDITIONAL",
+      "evidencePaths": [
+        "gold-grey/src/lib/imu/exerciseContext.ts",
+        "gold-grey/src/lib/imu/replay/abReplayCompare.ts",
+        "gold-grey/src/lib/imu/replay/compareAbCli.ts"
+      ],
+      "reason": "M3 A/B compare + clamp timeline overlay (GET /api/ab-compare/.../timeline)",
+      "checkedAt": "2026-07-16T19:39:54.080Z"
+    },
+    {
+      "capability": "bulk_transitions",
+      "state": "FUNCTIONAL",
+      "evidencePaths": [
+        "gold-grey/src/lib/boise/sampleTransitions.ts"
+      ],
+      "reason": "Shared transition helper from gold-grey",
+      "checkedAt": "2026-07-16T19:39:54.080Z"
+    }
+  ]
+}

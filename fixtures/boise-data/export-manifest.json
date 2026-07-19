@@ -1,0 +1,12 @@
+{
+  "schema": "reptile.boise.export-manifest.v1",
+  "generatedAtIso": "2026-07-10T12:00:00.000Z",
+  "appVersion": "boise-workbench-fixture",
+  "collectorIds": [
+    "wb-test"
+  ],
+  "countsByExercise": {
+    "squat": 1
+  },
+  "sampleCount": 1
+}

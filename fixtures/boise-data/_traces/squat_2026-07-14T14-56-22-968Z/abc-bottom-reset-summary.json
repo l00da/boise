@@ -1,0 +1,30 @@
+{
+  "sampleCount": 1391,
+  "oracleBottomCount": 7,
+  "deliberateResetCount": 7,
+  "confirmedMotionCount": 0,
+  "oneResetPerConfirmedMotion": false,
+  "finalRestDriftA": 0,
+  "finalRestDriftB1": 0,
+  "finalRestDriftB2": 0,
+  "diffA_B1": {
+    "meanAbsBodyZVelocityDiff": 3.4972337089196697,
+    "maxAbsBodyZVelocityDiff": 9.296546337321491,
+    "finalBodyZVelocityA": 0,
+    "finalBodyZVelocityB": 0
+  },
+  "diffA_B2": {
+    "meanAbsBodyZVelocityDiff": 0.07699060979460891,
+    "maxAbsBodyZVelocityDiff": 0.2524081413473554,
+    "finalBodyZVelocityA": 0,
+    "finalBodyZVelocityB": 0
+  },
+  "diffB1_B2": {
+    "meanAbsBodyZVelocityDiff": 3.5742243187142697,
+    "maxAbsBodyZVelocityDiff": 9.296546337321491,
+    "finalBodyZVelocityA": 0,
+    "finalBodyZVelocityB": 0
+  },
+  "aPreservationVerified": true,
+  "disclaimer": "B2 is an offline counterfactual (generic + oracle-timed velocity resets). Do not claim B2 is more accurate without Flex validation."
+}

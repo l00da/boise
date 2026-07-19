@@ -1,0 +1,40 @@
+{
+  "schema": "reptile.boise.sample-meta.v1",
+  "metaId": "meta_squat_2026-07-12T06-14-16-507Z",
+  "imuSessionFile": "sample.json",
+  "collector": {
+    "id": "collector_vincent_9acb12",
+    "displayName": "Vincent"
+  },
+  "exercise": {
+    "id": "squat",
+    "displayName": "Squat"
+  },
+  "capturedAtIso": "2026-07-12T06:14:16.507Z",
+  "appVersion": "dev",
+  "deviceInfo": {
+    "bleDeviceId": "hSFQUgUT71TD/yJS7OvNVw==",
+    "bleDeviceName": "ESP32-IMU",
+    "platform": "web"
+  },
+  "captureTrigger": {
+    "triggerId": "manual",
+    "version": 1,
+    "config": {}
+  },
+  "status": "kept",
+  "label": {
+    "exerciseId": "squat",
+    "source": "collector"
+  },
+  "review": {},
+  "history": [
+    {
+      "atIso": "2026-07-12T06:14:22.312Z",
+      "by": "collector_vincent_9acb12",
+      "from": "unreviewed@squat",
+      "to": "kept@squat"
+    }
+  ],
+  "exportedAtIso": "2026-07-12T06:14:28.408Z"
+}

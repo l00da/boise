@@ -1,0 +1,21 @@
+{
+  "schema": "reptile.rep-ground-truth.v1",
+  "sampleId": "squat_2026-07-10T15-45-15-212Z",
+  "annotator": "Vincent",
+  "createdAt": "2026-07-14T10:13:23.274Z",
+  "modifiedAt": "2026-07-14T23:10:04.610Z",
+  "source": "manual",
+  "approvalStatus": "reviewed",
+  "events": [
+    {
+      "id": "e-test-1",
+      "repId": "rep-001",
+      "eventType": "rep_complete",
+      "sampleIndex": 1,
+      "epochMs": 641849,
+      "relativeMs": 10,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 641839
+    }
+  ]
+}

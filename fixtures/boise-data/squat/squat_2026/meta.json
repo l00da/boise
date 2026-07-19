@@ -1,0 +1,231 @@
+{
+  "schema": "reptile.boise.sample-meta.v1",
+  "metaId": "meta_squat_2026",
+  "imuSessionFile": "sample.json",
+  "collector": {
+    "id": "wb-test",
+    "displayName": "Workbench Test"
+  },
+  "exercise": {
+    "id": "squat",
+    "displayName": "Squat"
+  },
+  "capturedAtIso": "2026-07-10T12:00:00.000Z",
+  "appVersion": "boise-workbench-fixture",
+  "deviceInfo": {
+    "platform": "fixture"
+  },
+  "captureTrigger": {
+    "triggerId": "manual",
+    "version": 1,
+    "config": {}
+  },
+  "status": "kept",
+  "label": {
+    "exerciseId": "squat",
+    "source": "collector"
+  },
+  "review": {
+    "note": "test keep"
+  },
+  "history": [
+    {
+      "atIso": "2026-07-10T15:08:45.918Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-10T15:08:54.706Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-10T15:10:10.609Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-11T16:49:19.808Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T04:58:42.219Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T04:58:53.582Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T05:23:14.139Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T05:23:18.261Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T06:25:31.755Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T06:25:42.867Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T06:44:11.920Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T06:45:22.197Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T06:58:49.217Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T06:58:55.686Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:01:27.759Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:03:24.334Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:03:31.352Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:05:12.227Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:05:17.149Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:37:59.748Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:54:50.196Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:54:53.996Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:55:15.909Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T07:58:03.604Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T08:02:25.240Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T08:04:32.924Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-12T08:06:43.556Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-14T08:37:20.114Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-14T09:50:39.295Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-14T13:13:58.540Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-14T23:01:56.519Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-14T23:02:43.555Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    },
+    {
+      "atIso": "2026-07-14T23:10:04.611Z",
+      "by": "wb-op",
+      "from": "kept@squat",
+      "to": "kept@squat"
+    }
+  ]
+}

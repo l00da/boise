@@ -1,0 +1,91 @@
+{
+  "schema": "reptile.rep-ground-truth.v1",
+  "sampleId": "squat_2026-07-14T14-57-05-742Z",
+  "annotator": "Vincent Pham",
+  "createdAt": "2026-07-14T22:23:13.800Z",
+  "modifiedAt": "2026-07-14T22:39:34.815Z",
+  "source": "manual",
+  "approvalStatus": "approved",
+  "events": [
+    {
+      "id": "evt-1784068010160-e52521",
+      "repId": "rep-001",
+      "eventType": "rep_complete",
+      "sampleIndex": 423,
+      "epochMs": 374793,
+      "relativeMs": 14750,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068139047-i9dm27",
+      "repId": "rep-002",
+      "eventType": "rep_complete",
+      "sampleIndex": 587,
+      "epochMs": 380782,
+      "relativeMs": 20739,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068155110-dwqihi",
+      "repId": "rep-003",
+      "eventType": "rep_complete",
+      "sampleIndex": 717,
+      "epochMs": 385318,
+      "relativeMs": 25275,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068228068-dv7s6h",
+      "repId": "rep-004",
+      "eventType": "rep_complete",
+      "sampleIndex": 927,
+      "epochMs": 392838,
+      "relativeMs": 32795,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068454940-19npe9",
+      "repId": "rep-001",
+      "eventType": "eccentric_start",
+      "sampleIndex": 331,
+      "epochMs": 371461,
+      "relativeMs": 11418,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068513468-qhzq7n",
+      "repId": "rep-002",
+      "eventType": "eccentric_start",
+      "sampleIndex": 490,
+      "epochMs": 377317,
+      "relativeMs": 17274,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068526066-elalhi",
+      "repId": "rep-003",
+      "eventType": "eccentric_start",
+      "sampleIndex": 626,
+      "epochMs": 382151,
+      "relativeMs": 22108,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    },
+    {
+      "id": "evt-1784068596071-x4t2ic",
+      "repId": "rep-004",
+      "eventType": "eccentric_start",
+      "sampleIndex": 826,
+      "epochMs": 389177,
+      "relativeMs": 29134,
+      "timingMethod": "timeline_edit",
+      "originalInteractionEpochMs": 379824.5
+    }
+  ]
+}

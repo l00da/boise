@@ -1,0 +1,12 @@
+{
+  "sampleCount": 1391,
+  "clampCountA": 172,
+  "clampCountB": 87,
+  "samplesWhereBSuppressedAClamp": 85,
+  "maxAbsBodyZVelocityDiff": 9.296546337321491,
+  "meanAbsBodyZVelocityDiff": 3.4972337089196697,
+  "finalBodyZVelocityA": 0,
+  "finalBodyZVelocityB": 0,
+  "aPreservationVerified": true,
+  "inputTimestampsMatch": true
+}
